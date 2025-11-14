@@ -106,13 +106,18 @@ This backend follows healthcare API security practices:
 
 ---
 
+### 📈 Deployment
+**☁️ Azure App Service**
+* Deployed in Azure Portal using *Azure Web Service*
+* Set ```npm start``` as startup command
+* Add env variables
+
+---
+
 ### 🤝 Contributing
 
 1. Fork the repository
-2. Create a new branch
-```bash
-git checkout -b feature/my-feature
-```
+2. Create a new branch  ```git checkout -b feature/my-feature```
 3. Commit your changes
 4. Push the branch
 5. Create a Pull Request
