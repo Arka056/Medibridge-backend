@@ -63,3 +63,72 @@ backend/
 ├─ package-lock.json
 └─ README.md
 ```
+## 🔧 Installation & Setup  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/Arka056/Medibridge-backend.git
+cd Medibridge-backend
+```
+### 2️⃣ Install Dependencies  
+```bash
+npm install
+```
+### 3️⃣ Environment Variables
+Create .env file:  
+```bash
+MONGO_URI=your-mongodb-uri
+JWT_SECRET=your-secret-key
+PORT=5000
+```
+### 4️⃣ Start Development Server
+```bash
+npm run dev
+```
+### 5️⃣ Start Production Server
+```bash
+npm start
+```
+### 6️⃣ Preview Production Build
+```bash
+npm run preview
+```
+---
+
+### 🛡 Security
+This backend follows healthcare API security practices:
+* JWT authentication
+* Password encryption (bcrypt)
+* Input validation
+* CORS protection
+* Error handling middleware
+* Sanitized database requests
+
+---
+
+### 🤝 Contributing
+
+1. Fork the repository
+2. Create a new branch
+```bash
+git checkout -b feature/my-feature
+```
+3. Commit your changes
+4. Push the branch
+5. Create a Pull Request
+Contributions are welcome! 
+We appreciate contributions that enhance performance, improve accessibility, or enhance the user experience!
+
+### 📜 License
+
+This project is licensed under the MIT License.
+
+### 💬 Feedback
+If you have suggestions or ideas to improve this UI, feel free to open an issue or share your thoughts.
+
+### ⭐ Support
+If you like this project, please ⭐ star the repository on GitHub — it motivates development!
+
+Thank you for exploring the **Medi-Bridge AI Platform**!
+
+Crafted with ❤️ for a **Smarter Healthcare** future.
